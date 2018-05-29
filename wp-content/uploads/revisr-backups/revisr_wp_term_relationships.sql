@@ -1,0 +1,38 @@
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+DROP TABLE IF EXISTS `wp_term_relationships`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `wp_term_relationships` (
+  `object_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `term_taxonomy_id` bigint(20) unsigned NOT NULL DEFAULT '0',
+  `term_order` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`object_id`,`term_taxonomy_id`),
+  KEY `term_taxonomy_id` (`term_taxonomy_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_520_ci;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+LOCK TABLES `wp_term_relationships` WRITE;
+/*!40000 ALTER TABLE `wp_term_relationships` DISABLE KEYS */;
+INSERT INTO `wp_term_relationships` VALUES (1,1,0),(1,4,0),(1,5,0),(2,10,0),(2,16,0),(8,5,0),(8,7,0),(9,10,0),(9,23,0),(11,10,0),(11,20,0),(12,5,0),(12,11,0),(13,10,0),(13,22,0),(19,10,0),(19,19,0),(21,10,0),(21,18,0),(25,10,0),(25,21,0),(32,10,0),(32,24,0),(34,10,0),(34,25,0),(36,10,0),(36,26,0),(47,3,0),(47,16,0),(49,6,0),(49,16,0),(59,10,0),(59,27,0),(61,17,0),(62,17,0),(63,17,0),(64,17,0),(65,17,0),(66,17,0),(67,17,0),(68,17,0),(69,17,0),(70,17,0),(71,3,0),(71,18,0),(73,6,0),(73,18,0),(75,3,0),(75,19,0),(77,6,0),(77,19,0),(79,3,0),(79,20,0),(81,6,0),(81,20,0),(83,6,0),(83,21,0),(85,3,0),(85,21,0),(87,3,0),(87,22,0),(89,6,0),(90,6,0),(90,22,0),(92,3,0),(92,23,0),(94,6,0),(94,23,0),(96,3,0),(96,24,0),(98,6,0),(98,24,0),(100,3,0),(100,25,0),(102,6,0),(102,25,0),(104,3,0),(104,26,0),(106,6,0),(106,26,0),(109,3,0),(109,27,0),(127,28,0),(129,28,0),(130,28,0);
+/*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+

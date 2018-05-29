@@ -1,0 +1,135 @@
+/*
+Theme Name: twentysixteenchild
+Description: Theme enfant twentysixteen
+Author: Lili
+Template: twentysixteen
+Version: 0.1.0
+*/
+
+body {
+    background:white;
+    overflow-x: hidden;
+}
+
+
+body, button, input, select, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.site {
+    margin:0;
+}
+
+.site-inner {
+    max-width:100%;
+}
+
+
+.site-header {
+    margin:0;
+}
+
+
+.site-header-main {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.main-navigation {
+    font-size: medium;
+}
+
+
+#header-widget-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.nwa-widget {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media p {
+    padding-right: 10px;
+}
+
+
+.screen-reader-text {
+    display: none;
+}
+
+.search-form{
+    border-color:black;
+    border: 1px solid black;
+}
+
+
+input[type="search"]{
+    border: none;
+    background:white;
+}
+
+.search-submit {
+    background:white;
+    color:red;
+}
+
+button:hover {
+    background: transparent !important;
+}
+
+
+.site-content {
+    width:100%;
+    padding:0;
+}
+
+.entry-content h1 {
+    text-align: center;
+}
+
+.site-footer {
+    background-color:green;
+    width:100%;
+    height:300px;
+}
+
+/* .content-area {
+    padding:0;
+} */
+
+
+/* .metaslider .flex-control-nav {
+    bottom:5px !important;
+} */
+
+.flex-direction-nav .flex-next {
+    right:30px !important;
+}
+
+.flex-direction-nav .flex-prev {
+    left:30px !important;
+}
+
+.metaslider {
+    width: 100vw !important;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+  }
+
+
+
+body:not(.custom-background-image):before, body:not(.custom-background-image):after {
+      content:none;
+}

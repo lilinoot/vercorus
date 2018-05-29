@@ -1,0 +1,80 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 29 May 2018 15 h 48 min
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.2.38
+WORDPRESS:	4.9.6
+PHP INFO:	7.0.27 | SAPI: fpm-fcgi
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 2048M (512M default) 
+MEMORY STACK: 24MB 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported 
+FILTERED: [] 
+RESPONSE: Ran from /usr/bin/mysqldump 
+TABLES: total:14 | filtered:0 | create:14 
+SQL CREATED: 20180529_vercorus_c6b9c86dad44bf352138180529154827_database.sql 
+SQL FILE SIZE: 250.39KB (256403) 
+SQL FILE TIME: 2018-05-29 15:48:37 
+SQL RUNTIME: 0.07 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /home/etsvercour/www 
+ARCHIVE FILE: 20180529_vercorus_c6b9c86dad44bf352138180529154827_archive.zip 
+FILTERS: *OFF* 
+DIRS:
+	not set 
+FILES:
+	not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	43.24MB 
+STATS:	Dirs 239 | Files 2,040 
+SQL ADDED: 20180529_vercorus_c6b9c86dad44bf352138180529154827_database.sql 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2279
+    [filename] => /home/etsvercour/www/wp-snapshots/tmp/20180529_vercorus_c6b9c86dad44bf352138180529154827_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 18.66MB 
+ARCHIVE RUNTIME: 8.12 sec. 
+MEMORY STACK: 24MB 
+
+******************************************************************************** 
+MAKE INSTALLER: 
+******************************************************************************** 
+Build Start 
+Build Finished 
+Preping for use 
+PACK SIZE:  
+Template parsed with new data 
+Complete [/home/etsvercour/www/wp-snapshots/tmp/20180529_vercorus_c6b9c86dad44bf352138180529154827_installer.php] 
+Added to archive 
+
+******************************************************************************** 
+INTEGRITY CHECKS: 
+******************************************************************************** 
+SQL File: 250.39KB 
+Installer File: 445.89KB 
+Archive File: 18.66MB  
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 8.71 sec.
+PEAK PHP MEMORY USED: 26MB
+DONE PROCESSING => 20180529_vercorus 29 May 2018 15 h 48 min
+ 
