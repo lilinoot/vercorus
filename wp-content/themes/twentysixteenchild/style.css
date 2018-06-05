@@ -7,7 +7,7 @@ Version: 0.1.0
 */
 
 body {
-    background:white;
+    background: white;
     overflow-x: hidden;
 }
 
@@ -28,6 +28,7 @@ body, button, input, select, textarea{
 
 .site-header {
     margin:0;
+    padding: 10px;
 }
 
 
@@ -38,7 +39,7 @@ body, button, input, select, textarea{
 
 
 .main-navigation {
-    font-size: medium;
+    font-size: 0.876em;
 }
 
 
@@ -56,9 +57,10 @@ body, button, input, select, textarea{
 
 .social-media {
     display: flex;
+    align-items: flex-end;
 }
 
-.social-media p {
+.follow {
     padding-right: 10px;
 }
 
@@ -80,7 +82,7 @@ input[type="search"]{
 
 .search-submit {
     background:white;
-    color:red;
+    color:#C85047;
 }
 
 button:hover {
@@ -95,29 +97,45 @@ button:hover {
 
 .entry-content h1 {
     text-align: center;
+    margin:10px;
+    font-weight:400;
+    font-size:1.5em;
 }
 
 .site-footer {
-    background-color:green;
+    background-color:#a79e6a;
     width:100%;
-    height:300px;
+    padding:0;
+    display:flex;
+    justify-content: space-around;
+    align-items:flex-start;
 }
+
+.site-map {
+    margin:10px;
+    font-size:13px;
+}
+
+.site-map:last-child {
+    line-height:1.5;
+}
+
 
 /* .content-area {
     padding:0;
 } */
 
 
-/* .metaslider .flex-control-nav {
+.metaslider .flex-control-nav {
     bottom:5px !important;
-} */
+}
 
 .flex-direction-nav .flex-next {
-    right:30px !important;
+    right:20px !important;
 }
 
 .flex-direction-nav .flex-prev {
-    left:30px !important;
+    left:15px !important;
 }
 
 .metaslider {
@@ -129,7 +147,40 @@ button:hover {
   }
 
 
+.metaslider .flexslider {
+    margin:0 !important;
+}
+
+
 
 body:not(.custom-background-image):before, body:not(.custom-background-image):after {
       content:none;
 }
+
+
+.site-map ul {
+    list-style: none;   
+    margin:0; 
+}
+
+.site-map p {
+    margin:0;
+}
+
+
+.site-info {
+    background-color: white;
+    width:100%;
+    margin:0;
+    text-align: center;
+}
+
+.site-info span {
+    padding:5px;
+    font-size:0.917em;
+}
+
+.site-header-menu {
+    margin:0;
+}
+

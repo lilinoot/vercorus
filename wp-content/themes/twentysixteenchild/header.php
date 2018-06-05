@@ -34,8 +34,8 @@
  				<div id="header-widget-area" class="nwa-header-widget widget-area" role="complementary">
 					<?php dynamic_sidebar( 'new-widget-area' ); ?>
 						<div class="social-media">
-							<p>Suivez-nous !</p> 
-							<p><a href="#"><img src="http://ets-vercorus.com/wp-content/uploads/2018/05/facebook-logo.png"/></a></p>
+							<p class="follow">Suivez-nous !</p> 
+							<p><a href="#"><img src="http://ets-vercorus.com/wp-content/uploads/2018/06/facebook-app-logo.png"/></a></p>
 					 	</div> 
  				</div>
 			<?php endif; ?><!-- nouvelle widget area -->

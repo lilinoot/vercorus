@@ -38,14 +38,38 @@
 				</nav><!-- .social-navigation -->
 			<?php endif; ?>
 
-			<div class="site-map">
-				<ul class="entreprise">
-					<li>Qui sommes-nous ?</li>
-					<li>Nos valeurs</li>
-					<li>Nos produits</li>
-					<li>Nos clients</li>
-					<li>Nos partenaires</li>
-				</ul>
+				<div class="site-map">
+				<h4>Qui sommes-nous ?</h4>
+					<ul>
+						<li>Nos valeurs</li>
+						<li>Nos produits</li>
+						<li>Nos clients</li>
+						<li>Nos partenaires</li>
+					</ul>
+				</div>
+				<div class="site-map">
+				<h4>Actualités</h4>
+					<ul>
+						<li>Notre projet shelter</li>
+						<li>Nos dernières réalisations</li>
+					</ul>
+				</div>
+				<div class="site-map">
+					<h4>Téléchargez notre brochure</h4p>
+				</div>
+				<div class="site-map">	
+					<h4>Nous suivre</h4>
+					<p><a href="#"><img src="http://ets-vercorus.com/wp-content/uploads/2018/06/facebook-app-logo.png"/></a></p>
+				</div>
+				<div class="site-map">
+					<h4>Nos coordonnées</h4>
+						<p>Vercorus</p>
+						<p>1095 Chemin des Arriberts</p>
+						<p>38840 Saint-Hilaire-du-Rosier</p>
+						<p>contact@vercorus.com</p>
+						<p>06 44 82 05 30</p>
+				</div>
+			</div>
 
 			<div class="site-info">
 				<?php
@@ -56,8 +80,9 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<span class="copyright">© 2018 - Vercorus</span>
+				<span>© 2018 - Vercorus</span>
 				<span>Tous droits réservés</span>
+				<span>|</span>
 				<span>Mentions légales</span>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
