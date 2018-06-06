@@ -39,30 +39,30 @@
 			<?php endif; ?>
 
 				<div class="site-map">
-				<h4>Qui sommes-nous ?</h4>
+				<h4><?php pll_e('Who are we?'); ?></h4>
 					<ul>
-						<li>Nos valeurs</li>
-						<li>Nos produits</li>
-						<li>Nos clients</li>
-						<li>Nos partenaires</li>
+						<li><?php pll_e('Our values'); ?></li>
+						<li><?php pll_e('Our products'); ?></li>
+						<li><?php pll_e('Our clients'); ?></li>
+						<li><?php pll_e('Our partners'); ?></li>
 					</ul>
 				</div>
 				<div class="site-map">
-				<h4>Actualités</h4>
+				<h4><?php pll_e('News'); ?></h4>
 					<ul>
-						<li>Notre projet shelter</li>
-						<li>Nos dernières réalisations</li>
+						<li><?php pll_e('Our shelter project'); ?></li>
+						<li><?php pll_e('Our last constructions'); ?></li>
 					</ul>
 				</div>
 				<div class="site-map">
-					<h4>Téléchargez notre brochure</h4p>
+					<h4><?php pll_e('Download our leaflet'); ?></h4>
 				</div>
 				<div class="site-map">	
-					<h4>Nous suivre</h4>
+					<h4><?php pll_e('Follow us'); ?></h4>
 					<p><a href="#"><img src="http://ets-vercorus.com/wp-content/uploads/2018/06/facebook-app-logo.png"/></a></p>
 				</div>
 				<div class="site-map">
-					<h4>Nos coordonnées</h4>
+					<h4><?php pll_e('Contact'); ?></h4>
 						<p>Vercorus</p>
 						<p>1095 Chemin des Arriberts</p>
 						<p>38840 Saint-Hilaire-du-Rosier</p>
@@ -79,15 +79,17 @@
 					 * @since Twenty Sixteen 1.0
 					 */
 					do_action( 'twentysixteen_credits' );
+
 				?>
 				<span>© 2018 - Vercorus</span>
-				<span>Tous droits réservés</span>
+				<span><?php pll_e('All rights reserved'); ?></span>
 				<span>|</span>
-				<span>Mentions légales</span>
+				<span><?php pll_e('Legal notice'); ?></span>
 			</div><!-- .site-info -->
 		</footer><!-- .site-footer -->
 	</div><!-- .site-inner -->
 </div><!-- .site -->
+
 
 <?php wp_footer(); ?>
 </body>
