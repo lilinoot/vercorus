@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-06-06 02:38:38+0000\n"
+"PO-Revision-Date: 2018-06-06 15:53:11+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -354,6 +354,10 @@ msgstr "Besoin d’aide avec l’extension ?"
 #: views/packages/main/packages.php:246
 msgid "Other Resources:"
 msgstr "Autres ressources :"
+
+#: views/packages/main/packages.php:243
+msgid "Frequently Asked Questions!"
+msgstr "Foire Aux Questions !"
 
 #: views/packages/main/packages.php:242
 msgid "How do I install a package?"

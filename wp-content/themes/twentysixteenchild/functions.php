@@ -24,7 +24,10 @@ function header_widgets_init() {
    
    add_action( 'widgets_init', 'header_widgets_init' );
 
-   pll_register_string('Titre1', 'Who are we?', 'Site map');
+pll_register_string('Social', 'Follow us!', 'Social media');  
+// Suivez-nous 
+
+pll_register_string('Titre1', 'Who are we?', 'Site map');
 // Qui sommes-nous
 
 pll_register_string('Valeurs', 'Our values', 'Site map');
