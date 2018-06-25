@@ -71,8 +71,8 @@ body, button, input, select, textarea{
 }
 
 .follow {
-    padding-right: 10px;
     font-size:0.865em;
+    padding-right:10px;
 }
 
 
@@ -217,7 +217,6 @@ body:not(.custom-background-image):before, body:not(.custom-background-image):af
 
 .search-form {
     width:80%;
-    height:50%;
     border: 0.5px solid black;
 }
 

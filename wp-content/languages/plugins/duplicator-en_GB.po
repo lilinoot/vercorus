@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-06-06 02:38:32+0000\n"
+"PO-Revision-Date: 2018-06-18 01:34:47+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1250,6 +1250,10 @@ msgstr "Plus Many Other Features..."
 msgid "cPanel Database API"
 msgstr "cPanel Database API"
 
+#: views/packages/main/s1.setup2.php:103
+msgid "%1$s, %2$s, %3$s, %4$s, %5$s and other storage options available in"
+msgstr "%1$s, %2$s, %3$s, %4$s, %5$s and other storage options available in"
+
 #: views/tools/controller.php:24
 msgid "File Removed"
 msgstr "File Removed"
@@ -1370,6 +1374,10 @@ msgstr "FILES"
 #: views/packages/details/detail.php:194 views/packages/main/s1.setup2.php:106
 msgid "Additional Storage:"
 msgstr "Additional Storage:"
+
+#: views/packages/details/detail.php:191
+msgid "%1$s, %2$s, %3$s, %4$s, %5$s and more storage options available in"
+msgstr "%1$s, %2$s, %3$s, %4$s, %5$s and more storage options available in"
 
 #: views/packages/details/detail.php:118
 msgid "Share"
