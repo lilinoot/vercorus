@@ -42,7 +42,7 @@ CREATE TABLE `wp_UPCP_Items` (
 
 LOCK TABLES `wp_UPCP_Items` WRITE;
 /*!40000 ALTER TABLE `wp_UPCP_Items` DISABLE KEYS */;
-INSERT INTO `wp_UPCP_Items` VALUES (1,'Bain norvégien','bain-norvégien','<p>This is where your description of this product would go.</p>\n','','','No','','http://ets-vercorus.com/wp-content/uploads/2018/06/DSC2288.jpg',1,'Sample Category',0,'',0,'','0000-00-00 00:00:00',5,'Show','','','',9999,0);
+INSERT INTO `wp_UPCP_Items` VALUES (1,'Bain norvégien','bain-norvégien','<p>This is where your description of this product would go.</p>\n','','','No','','http://ets-vercorus.com/wp-content/uploads/2018/06/DSC2288.jpg',1,'Sample Category',0,'',0,'','0000-00-00 00:00:00',6,'Show','','','',9999,0);
 /*!40000 ALTER TABLE `wp_UPCP_Items` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
