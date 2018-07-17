@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Duplicator &#8211; WordPress Migration Plugin - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-06-18 01:34:47+0000\n"
+"PO-Revision-Date: 2018-07-12 19:33:13+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -383,6 +383,14 @@ msgstr "Check out the 'Quick Start' guide!"
 msgid "New to Duplicator?"
 msgstr "New to Duplicator?"
 
+#: views/packages/details/transfer.php:22 views/settings/storage.php:22
+msgid "OneDrive"
+msgstr "OneDrive"
+
+#: views/packages/details/transfer.php:19
+msgid "Dropbox"
+msgstr "Dropbox"
+
 #: views/help/gopro.php:212
 msgid "Enhanced Experience"
 msgstr "Enhanced Experience"
@@ -446,6 +454,14 @@ msgstr "Large Site Support"
 #: views/help/gopro.php:127
 msgid "Improved Processing"
 msgstr "Improved Processing"
+
+#: views/help/gopro.php:118
+msgid "OneDrive Storage"
+msgstr "OneDrive Storage"
+
+#: views/help/gopro.php:110
+msgid "FTP/SFTP Storage"
+msgstr "FTP/SFTP Storage"
 
 #: views/help/gopro.php:81
 msgid "Cloud Storage"

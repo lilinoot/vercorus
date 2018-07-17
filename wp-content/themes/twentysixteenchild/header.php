@@ -36,7 +36,7 @@
 						<div class="social-media">
 							<p class="follow"><?php pll_e('Follow us!'); ?></p> 
 							<p><a href="#"><img src="http://ets-vercorus.com/wp-content/uploads/2018/06/facebook-app-logo.png"/></a></p>
-					 	</div> 
+					 	</div>
  				</div>
 			<?php endif; ?><!-- nouvelle widget area -->
 			 
