@@ -6,6 +6,7 @@ Template: twentysixteen
 Version: 0.1.0
 */
 
+
 body {
     background: white;
     overflow-x: hidden;
@@ -94,6 +95,7 @@ input[type="search"]{
 button:hover {
     background: transparent !important;
 }
+
 
 
 .site-content {
@@ -213,6 +215,7 @@ body:not(.custom-background-image):before, body:not(.custom-background-image):af
 .search-submit {
     top:2px;
     bottom:2px;
+    right:5px;
 }
 
 .search-form {
